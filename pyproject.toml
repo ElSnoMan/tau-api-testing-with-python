@@ -1,15 +1,15 @@
 [tool.poetry]
 authors = ["Carlos Kidman <carlos@qap.dev>"]
 description = ""
-name = "api-testing-with-python-prep"
+name = "tau-api-testing-with-python"
 version = "0.1.0"
 
 [tool.poetry.dependencies]
+ipykernel = "^5.4.3"
 pydantic = "^1.7.3"
 pytest = "^6.2.2"
 python = "^3.7"
 requests = "^2.25.1"
-ipykernel = "^5.4.3"
 
 [tool.poetry.dev-dependencies]
 autopep8 = "^1.5.5"
